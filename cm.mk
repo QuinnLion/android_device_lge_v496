@@ -1,7 +1,7 @@
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-$(call inherit-product, device/lge/v410/full_v496.mk)
+$(call inherit-product, device/lge/v496/full_v496.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
