@@ -17,16 +17,16 @@
 # inherit from common v4xx
 -include device/lge/v4xx-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := v410,e7,e7lte
+TARGET_OTA_ASSERT_DEVICE := v496,t8,t8lte
 
 # Bump
 TARGET_REQUIRES_BUMP := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_e7att_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_t8lte_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/v410/BoardConfigVendor.mk
+-include vendor/lge/v496/BoardConfigVendor.mk
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/lge/v410/ril/
+BOARD_RIL_CLASS := ../../../device/lge/v496/ril/
